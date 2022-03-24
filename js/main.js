@@ -26,7 +26,7 @@ for (let i = 0; i < 5; i++) {
         context.rect(x, y, width, height);
         context.stroke();
 
-        if (i > 0 && i < 4) {
+        if (Math.random() > 0.5) {
             context.beginPath();
             context.rect(x + 10, y + 10, width - 20, height - 20);
             context.stroke();
