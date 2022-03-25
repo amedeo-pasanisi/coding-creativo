@@ -1,7 +1,18 @@
 let canvas = document.querySelector('canvas');
 let context = canvas.getContext('2d');
 
+// context.fillStyle = 'blue';
+// context.fillRect(100, 100, 400, 400);
+
 context.lineWidth = 4;
+// context.beginPath();
+// context.rect(250, 250, 100, 100);
+// context.stroke();
+
+// context.beginPath();
+// context.arc(300, 300, 25, 0, Math.PI * 2);
+// context.stroke();
+
 const width = 80;
 const height = 80;
 const gap = 20;
